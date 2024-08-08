@@ -1,0 +1,632 @@
+{   
+    "navLinks" : [
+        {
+            "title": "Explore",
+            "link" : "explore_link" 
+        },
+        {
+            "title": "Shop",
+            "link" : "shop_link" 
+        },
+        {
+            "title": "Support",
+            "link" : "support_link" 
+        }
+    ],
+
+
+    "categories" : [
+        {
+            "title" : "printers",
+            "img" : "https://www.hp.com/content/dam/sites/worldwide/homepage/images/printers-main.jpg",
+            "text" : "Printers, Cartridges & Paper"
+        },
+        {
+            "title" : "pc",
+            "img" : "https://www.hp.com/content/dam/sites/worldwide/homepage/images/pcs-main.jpg",
+            "text" : "PCs"
+        },
+        {
+            "title" : "accessories",
+            "img" : "https://www.hp.com/content/dam/sites/worldwide/homepage/images/webcams-main.jpg",
+            "text" : "Monitors & Accessories"
+        }
+    ],
+
+
+    "allProducts":[
+        {
+            "id": 1,
+            "category": "accessories",
+            "title": "HP 430 Multi-Device Wireless Mouse",
+            "img": [
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07818960.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07819531.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07819214.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07819356.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07819461.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07819079.png?impolicy=Png_Res&imwidth=270&imdensity=1"
+            ],
+            "rate": "5",
+            "description": "Bluetooth® or USB-A nano dongle, 24 month battery life, 4 customizable buttons, Adjustable-speed scroll wheel and cursor tracking",
+            "sn": "3B4Q2AA#ABL",
+            "price": "43.99",
+            "discount": 47
+        },
+        {
+            "id": 2,
+            "category": "printers",
+            "title": "HP DeskJet 2855e All-in-One Printer w/ bonus 3 months Instant Ink through HP+",
+            "img": [
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08978482.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08706697.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08978392.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08706364.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08706395.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08978580.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08978512.png?impolicy=Png_Res&imwidth=270&imdensity=1"
+            ],
+            "rate": "4",
+            "description": "Print, copy, scan in color, mobile/wireless printing, Basic color documents like recipes, forms, and travel document, Includes 3 months Instant Ink, extra year of warranty and more with optional HP+ printing system, HP+ requires HP account, internet, works only with original HP ink, Dynamic security enabled printer",
+            "sn": "588S5A#B1H",
+            "price": "84.99",
+            "discount": 29
+        },
+        {
+            "id": 3,
+            "category": "pc",
+            "title": "HP OmniBook X 14",
+            "img": [
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c09016534.png?impolicy=Png_Res",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08988376.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08988526.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08988466.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08988436.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08988496.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08988406.png?impolicy=Png_Res&imwidth=270&imdensity=1"
+            ],
+            "rate": "4.5",
+            "description": "AI-powered PCs that adapt to you.",
+            "sn": "A3QT5UA#ABA",
+            "price": "1,199.99",
+            "discount": 0
+        },
+        {
+            "id": 4,
+            "category": "accessories",
+            "title": "HP 430 Multi-Device Wireless Mouse",
+            "img": [
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07818960.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07819531.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07819214.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07819356.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07819461.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07819079.png?impolicy=Png_Res&imwidth=270&imdensity=1"
+            ],
+            "rate": "5",
+            "description": "Bluetooth® or USB-A nano dongle, 24 month battery life, 4 customizable buttons, Adjustable-speed scroll wheel and cursor tracking",
+            "sn": "3B4Q2AA#ABL",
+            "price": "43.99",
+            "discount": 47
+        },
+        {
+            "id": 5,
+            "category": "printers",
+            "title": "HP DeskJet 2855e All-in-One Printer w/ bonus 3 months Instant Ink through HP+",
+            "img": [
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08978482.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08706697.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08978392.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08706364.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08706395.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08978580.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08978512.png?impolicy=Png_Res&imwidth=270&imdensity=1"
+            ],
+            "rate": "4",
+            "description": "Print, copy, scan in color, mobile/wireless printing, Basic color documents like recipes, forms, and travel document, Includes 3 months Instant Ink, extra year of warranty and more with optional HP+ printing system, HP+ requires HP account, internet, works only with original HP ink, Dynamic security enabled printer",
+            "sn": "588S5A#B1H",
+            "price": "84.99",
+            "discount": 29
+        },
+        {
+            "id": 6,
+            "category": "pc",
+            "title": "HP OmniBook X 14",
+            "img": [
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c09016534.png?impolicy=Png_Res",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08988376.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08988526.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08988466.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08988436.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08988496.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08988406.png?impolicy=Png_Res&imwidth=270&imdensity=1"
+            ],
+            "rate": "4.5",
+            "description": "AI-powered PCs that adapt to you.",
+            "sn": "A3QT5UA#ABA",
+            "price": "1,199.99",
+            "discount": 0
+        },
+        {
+            "id": 7,
+            "category": "accessories",
+            "title": "HP 430 Multi-Device Wireless Mouse",
+            "img": [
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07818960.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07819531.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07819214.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07819356.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07819461.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07819079.png?impolicy=Png_Res&imwidth=270&imdensity=1"
+            ],
+            "rate": "5",
+            "description": "Bluetooth® or USB-A nano dongle, 24 month battery life, 4 customizable buttons, Adjustable-speed scroll wheel and cursor tracking",
+            "sn": "3B4Q2AA#ABL",
+            "price": "43.99",
+            "discount": 47
+        },
+        {
+            "id": 8,
+            "category": "printers",
+            "title": "HP DeskJet 2855e All-in-One Printer w/ bonus 3 months Instant Ink through HP+",
+            "img": [
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08978482.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08706697.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08978392.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08706364.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08706395.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08978580.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08978512.png?impolicy=Png_Res&imwidth=270&imdensity=1"
+            ],
+            "rate": "4",
+            "description": "Print, copy, scan in color, mobile/wireless printing, Basic color documents like recipes, forms, and travel document, Includes 3 months Instant Ink, extra year of warranty and more with optional HP+ printing system, HP+ requires HP account, internet, works only with original HP ink, Dynamic security enabled printer",
+            "sn": "588S5A#B1H",
+            "price": "84.99",
+            "discount": 29
+        },
+        {
+            "id": 9,
+            "category": "pc",
+            "title": "HP OmniBook X 14",
+            "img": [
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c09016534.png?impolicy=Png_Res",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08988376.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08988526.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08988466.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08988436.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08988496.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08988406.png?impolicy=Png_Res&imwidth=270&imdensity=1"
+            ],
+            "rate": "4.5",
+            "description": "AI-powered PCs that adapt to you.",
+            "sn": "A3QT5UA#ABA",
+            "price": "1,199.99",
+            "discount": 0
+        },
+        {
+            "id": 10,
+            "category": "accessories",
+            "title": "HP 430 Multi-Device Wireless Mouse",
+            "img": [
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07818960.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07819531.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07819214.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07819356.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07819461.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07819079.png?impolicy=Png_Res&imwidth=270&imdensity=1"
+            ],
+            "rate": "5",
+            "description": "Bluetooth® or USB-A nano dongle, 24 month battery life, 4 customizable buttons, Adjustable-speed scroll wheel and cursor tracking",
+            "sn": "3B4Q2AA#ABL",
+            "price": "43.99",
+            "discount": 47
+        },
+        {
+            "id": 11,
+            "category": "printers",
+            "title": "HP DeskJet 2855e All-in-One Printer w/ bonus 3 months Instant Ink through HP+",
+            "img": [
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08978482.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08706697.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08978392.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08706364.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08706395.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08978580.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08978512.png?impolicy=Png_Res&imwidth=270&imdensity=1"
+            ],
+            "rate": "4",
+            "description": "Print, copy, scan in color, mobile/wireless printing, Basic color documents like recipes, forms, and travel document, Includes 3 months Instant Ink, extra year of warranty and more with optional HP+ printing system, HP+ requires HP account, internet, works only with original HP ink, Dynamic security enabled printer",
+            "sn": "588S5A#B1H",
+            "price": "84.99",
+            "discount": 29
+        },
+        {
+            "id": 12,
+            "category": "pc",
+            "title": "HP OmniBook X 14",
+            "img": [
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c09016534.png?impolicy=Png_Res",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08988376.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08988526.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08988466.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08988436.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08988496.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08988406.png?impolicy=Png_Res&imwidth=270&imdensity=1"
+            ],
+            "rate": "4.5",
+            "description": "AI-powered PCs that adapt to you.",
+            "sn": "A3QT5UA#ABA",
+            "price": "1,199.99",
+            "discount": 0
+        },
+        {
+            "id": 13,
+            "category": "accessories",
+            "title": "HP 430 Multi-Device Wireless Mouse",
+            "img": [
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07818960.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07819531.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07819214.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07819356.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07819461.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07819079.png?impolicy=Png_Res&imwidth=270&imdensity=1"
+            ],
+            "rate": "5",
+            "description": "Bluetooth® or USB-A nano dongle, 24 month battery life, 4 customizable buttons, Adjustable-speed scroll wheel and cursor tracking",
+            "sn": "3B4Q2AA#ABL",
+            "price": "43.99",
+            "discount": 47
+        },
+        {
+            "id": 14,
+            "category": "printers",
+            "title": "HP DeskJet 2855e All-in-One Printer w/ bonus 3 months Instant Ink through HP+",
+            "img": [
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08978482.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08706697.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08978392.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08706364.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08706395.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08978580.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08978512.png?impolicy=Png_Res&imwidth=270&imdensity=1"
+            ],
+            "rate": "4",
+            "description": "Print, copy, scan in color, mobile/wireless printing, Basic color documents like recipes, forms, and travel document, Includes 3 months Instant Ink, extra year of warranty and more with optional HP+ printing system, HP+ requires HP account, internet, works only with original HP ink, Dynamic security enabled printer",
+            "sn": "588S5A#B1H",
+            "price": "84.99",
+            "discount": 29
+        },
+        {
+            "id": 15,
+            "category": "pc",
+            "title": "HP OmniBook X 14",
+            "img": [
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c09016534.png?impolicy=Png_Res",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08988376.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08988526.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08988466.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08988436.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08988496.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08988406.png?impolicy=Png_Res&imwidth=270&imdensity=1"
+            ],
+            "rate": "4.5",
+            "description": "AI-powered PCs that adapt to you.",
+            "sn": "A3QT5UA#ABA",
+            "price": "1,199.99",
+            "discount": 0
+        },
+        {
+            "id": 16,
+            "category": "accessories",
+            "title": "HP 430 Multi-Device Wireless Mouse",
+            "img": [
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07818960.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07819531.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07819214.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07819356.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07819461.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c07819079.png?impolicy=Png_Res&imwidth=270&imdensity=1"
+            ],
+            "rate": "5",
+            "description": "Bluetooth® or USB-A nano dongle, 24 month battery life, 4 customizable buttons, Adjustable-speed scroll wheel and cursor tracking",
+            "sn": "3B4Q2AA#ABL",
+            "price": "43.99",
+            "discount": 47
+        },
+        {
+            "id": 17,
+            "category": "printers",
+            "title": "HP DeskJet 2855e All-in-One Printer w/ bonus 3 months Instant Ink through HP+",
+            "img": [
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08978482.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08706697.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08978392.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08706364.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08706395.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08978580.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08978512.png?impolicy=Png_Res&imwidth=270&imdensity=1"
+            ],
+            "rate": "4",
+            "description": "Print, copy, scan in color, mobile/wireless printing, Basic color documents like recipes, forms, and travel document, Includes 3 months Instant Ink, extra year of warranty and more with optional HP+ printing system, HP+ requires HP account, internet, works only with original HP ink, Dynamic security enabled printer",
+            "sn": "588S5A#B1H",
+            "price": "84.99",
+            "discount": 29
+        },
+        {
+            "id": 18,
+            "category": "pc",
+            "title": "HP OmniBook X 14",
+            "img": [
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c09016534.png?impolicy=Png_Res",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08988376.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08988526.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08988466.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08988436.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08988496.png?impolicy=Png_Res&imwidth=270&imdensity=1",
+                "https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c08988406.png?impolicy=Png_Res&imwidth=270&imdensity=1"
+            ],
+            "rate": "4.5",
+            "description": "AI-powered PCs that adapt to you.",
+            "sn": "A3QT5UA#ABA",
+            "price": "1,199.99",
+            "discount": 0
+        }
+    ],
+    
+
+
+
+
+    "footerLinks" : [
+        {
+            "related-links" : [
+                {
+                    "title" : "HP Outlet: Great Deals on Laptops",
+                    "link" : "outlet"
+                },
+                {
+                    "title" : "HP® Computer and Laptop Store",
+                    "link" : "shop"
+                },
+                {
+                    "title" : "HP Pavilion",
+                    "link" : "pavilion"
+                },
+                {
+                    "title" : "Shop Laptops & 2-in-1 Computers",
+                    "link" : "laptops"
+                },
+                {
+                    "title" : "Shop HP Ink or Toner Cartridges",
+                    "link" : "ink-toner"
+                },
+                {
+                    "title" : "All HP Printers",
+                    "link" : "printers"
+                },
+                {
+                    "title" : "Shop Desktop Computers",
+                    "link" : "desktops"
+                },
+                {
+                    "title" : "Home and Home Office",
+                    "link" : "home-office"
+                },
+                {
+                    "title" : "The History of HP",
+                    "link" : "history-of-hp"
+                },
+                {
+                    "title" : "Printers for Home & Office",
+                    "link" : "printers"
+                }
+            ]
+        },
+        {
+            "main-links" : [
+                {
+                    "title" : "About us",
+                    "link" : "about-us",
+                    "subLinks" : [
+                        {
+                            "title" : "Contact HP",
+                            "link" : "/"
+                        },
+                        {
+                            "title" : "Careers",
+                            "link" : "/"
+                        },
+                        {
+                            "title" : "Investor relations",
+                            "link" : "/"
+                        },
+                        {
+                            "title" : "Sustainable impact",
+                            "link" : "/"
+                        },
+                        {
+                            "title" : "Diversity, Equity and Inclusion",
+                            "link" : "/"
+                        },
+                        {
+                            "title" : "Press center",
+                            "link" : "/"
+                        },
+                        {
+                            "title" : "The Garage",
+                            "link" : "/"
+                        },
+                        {
+                            "title" : "HP Store Newsletter",
+                            "link" : "/"
+                        },
+                        {
+                            "title" : "HP Printables Newsletter",
+                            "link" : "/"
+                        }
+                    ]
+                },
+                {
+                    "title" : "Ways to buy",
+                    "link" : "/",
+                    "subLinks" : [
+                        {
+                            "title" : "Shop online",
+                            "link" : "/"
+                        },
+                        {
+                            "title" : "Call on HP rep",
+                            "link" : "/"
+                        },
+                        {
+                            "title" : "Find a reseller",
+                            "link" : "/"
+                        },
+                        {
+                            "title" : "Enterprise store",
+                            "link" : "/"
+                        },
+                        {
+                            "title" : "Public sector purchasing",
+                            "link" : "/"
+                        }
+
+                    ]
+                },
+                {
+                    "title" : "Support",
+                    "link" : "support",
+                    "subLinks" : [
+                        {
+                            "title" : "Download drivers",
+                            "link" : "/"
+                        },
+                        {
+                            "title" : "Support & troubleshooting",
+                            "link" : "/"
+                        },
+                        {
+                            "title" : "Community",
+                            "link" : "/"
+                        },
+                        {
+                            "title" : "Register your product",
+                            "link" : "/"
+                        },
+                        {
+                            "title" : "Authorized service providers",
+                            "link" : "/"
+                        },
+                        {
+                            "title" : "Check repair status",
+                            "link" : "/"
+                        },
+                        {
+                            "title" : "Fraud alert",
+                            "link" : "/"
+                        },
+                        {
+                            "title" : "Security Center",
+                            "link" : "/"
+                        }
+                    ]
+                },
+                {
+                    "title" : "HP Partners",
+                    "link" : "/",
+                    "subLinks" : [
+                        {
+                            "title" : "HP Amplify Partner Program",
+                            "link" : "/"
+                        },
+                        {
+                            "title" : "HP Partner Portal",
+                            "link" : "/"
+                        },
+                        {
+                            "title" : "Developers",
+                            "link" : "/"
+                        }
+                    ]
+                },
+                {
+                    "title" : "Stay connected",
+                    "link" : "/",
+                    "subLinks" : [
+                        {
+                            "title" : "Linkedin",
+                            "link" : "/"
+                        },
+                        {
+                            "title" : "Facebook",
+                            "link" : "/"
+                        },
+                        {
+                            "title" : "Instagram",
+                            "link" : "/"
+                        },
+                        {
+                            "title" : "Twitter",
+                            "link" : "/"
+                        },
+                        {
+                            "title" : "Youtube",
+                            "link" : "/"
+                        },
+                        {
+                            "title" : "Tiktok",
+                            "link" : "/"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "helper-links" : [
+                {
+                    "title" : "Recalls",
+                    "link" : "/"
+                },
+                {
+                    "title" : "Product recycling",
+                    "link" : "/"
+                },
+                {
+                    "title" : "Accessibility",
+                    "link" : "/"
+                },
+                {
+                    "title" : "CA Supply Chains Act",
+                    "link" : "/"
+                },
+                {
+                    "title" : "Privacy",
+                    "link" : "/"
+                },
+                {
+                    "title" : "Use of cookies",
+                    "link" : "/"
+                },
+                {
+                    "title" : "Your privacy choices",
+                    "link" : "/"
+                },
+                {
+                    "title" : "Terms of use",
+                    "link" : "/"
+                },
+                {
+                    "title" : "Limited warranty statement",
+                    "link" : "/"
+                },
+                {
+                    "title" : "Terms & conditions of sales & service",
+                    "link" : "/"
+                }
+            ]
+        }
+        
+    ],
+
+    "copyright" : "©2024 HP Development Company, L.P.  The information contained herein is subject to change without notice."
+}

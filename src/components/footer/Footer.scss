@@ -1,0 +1,111 @@
+footer{
+    background-color: #000;
+    padding-bottom: 40px;
+}
+
+.footer__main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 8px;
+    gap: 12px 0;
+}
+
+.hr-line3{
+    margin: -5px 0 10px 0;
+    height: 1.5px;
+}
+
+
+.footer__related-links{
+    display: flex;
+    flex-direction: column;
+    h3{
+        font-size: 14px;
+        font-family: forma-djr-micro, Arial, sans-serif;
+        display: flex;
+        align-items: center;
+        gap: 0 4px;
+        color: #fff;
+        :last-child{
+            font-size: 20px;
+        }
+    }
+}
+
+
+.footer__country-selector{
+    display: flex;
+    align-items: center;
+    p{
+        font-size: 14px;
+        font-family: forma-djr-micro, Arial, sans-serif;
+        color: #fff;
+    }
+}
+
+
+.footer__main-links{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;    
+    .main__links{
+        display: flex;
+        flex-direction: column;
+        gap: 16px 0;
+        a,p{
+            font-size: 14px;
+            font-family: forma-djr-micro, Arial, sans-serif;
+            text-decoration: none;
+            color: #fff;
+        }
+        .footer__sub-links{
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        .social__links{
+            flex-direction: row;
+            a{
+                transition: 0.3S;
+                font-size: 22px;
+                &:hover{
+                    transform: scale(1.2);
+                }
+            }
+        }
+    }    
+}
+
+
+.helper__links{
+    display: flex;
+    flex-wrap: wrap;
+    a{
+        display: flex;
+        font-size: 14px;
+        font-family: forma-djr-micro, Arial, sans-serif;
+        text-decoration: none;
+        color: #fff;
+        span{
+            display: block;
+            width: 1px;
+            height: 100%;
+            background-color: #fff;
+            margin: 0 8px 0 8px;
+        }
+    }
+}
+
+
+.copyright{
+    padding-top: 16px;
+    p{
+        font-size: 14px;
+        font-family: forma-djr-micro, Arial, sans-serif;
+        display: flex;
+        align-items: center;
+        color: #fff;
+    }
+}
+
