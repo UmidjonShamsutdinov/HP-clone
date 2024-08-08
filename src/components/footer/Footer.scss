@@ -21,6 +21,7 @@ footer{
     display: flex;
     flex-direction: column;
     h3{
+        cursor: pointer;
         font-size: 14px;
         font-family: forma-djr-micro, Arial, sans-serif;
         display: flex;
@@ -87,6 +88,7 @@ footer{
         font-family: forma-djr-micro, Arial, sans-serif;
         text-decoration: none;
         color: #fff;
+        gap: 0 6px;
         span{
             display: block;
             width: 1px;

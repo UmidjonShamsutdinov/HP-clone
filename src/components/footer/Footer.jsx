@@ -53,7 +53,7 @@ const Footer = () => {
                 <div className="helper__links">
                     {
                         helperLinks.map((links, index)=>
-                            <Link key={index} to={links.link}>{links.title} {helperLinks.length-1 !== index && <span></span>}</Link>
+                            links.icon ? <Link key={index} to={links.link}>{<DynamicIcon iconName={links.icon}/>}{links.title} {helperLinks.length-1 !== index && <span></span>}</Link> : <Link key={index} to={links.link}>{links.title} {helperLinks.length-1 !== index && <span></span>}</Link>
                         )                                        
                     }
                 </div>

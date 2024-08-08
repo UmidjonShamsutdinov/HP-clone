@@ -609,7 +609,8 @@
                 },
                 {
                     "title" : "Your privacy choices",
-                    "link" : "/"
+                    "link" : "/",
+                    "icon" : "Ideal"
                 },
                 {
                     "title" : "Terms of use",
