@@ -39,7 +39,7 @@ const Footer = () => {
                                 <div className={links.title !== "Stay connected" ? "footer__sub-links" : "footer__sub-links social__links"}>
                                     {
                                         links.subLinks.map((subLink, index)=>
-                                            links.title !== "Stay connected" ? <Link key={index} to={subLink.title}>{subLink.title}</Link>
+                                            links.title !== "Stay connected" ? <Link key={index} to={subLink.link}>{subLink.title}</Link>
                                         : <Link key={index} to={subLink.link}><DynamicIcon iconName={subLink.title}/></Link>                        
                                     )
                                 }
