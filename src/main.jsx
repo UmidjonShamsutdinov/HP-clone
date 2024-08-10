@@ -7,8 +7,6 @@ import RouteController from './routes/index.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <BrowserRouter>
-      <RouteController>
         <App />
-      </RouteController>
     </BrowserRouter>    
 )

@@ -14,6 +14,7 @@ const Nav = () => {
         <Container>
             <div className="nav__main">
                 <div className="nav__links">
+                    <h1 style={{display: "none"}}>HP</h1>
                     <Link to={"/"}><img src={hpLogo} alt=""/></Link>
                     <div className="navMenu">
                         <ul>
