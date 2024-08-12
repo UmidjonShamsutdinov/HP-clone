@@ -7,6 +7,8 @@ import Footer from '../../components/footer/Footer'
 import { Link } from 'react-router-dom'
 import "./Home.scss"
 import { Container } from '../../utils/Utils'
+import Hero from '../../components/hero/Hero'
+import {stickyText} from "../../db/data.json"
 
 const Home = () => {
   return (
@@ -17,11 +19,12 @@ const Home = () => {
           <div className="sticky-div">
             <Container>
               <div className="stick__info">
-                <h2>Back to School Buyers Guide. Unlock your A+ potential with powerful tech from HP.</h2>
+                <h2>{stickyText}</h2>
                 <Link to={"/"}>Shop</Link>  
               </div>
             </Container>
           </div>
+          <Hero/>
           <HeyThere/>
           <BeFriends/>
           <Footer/>

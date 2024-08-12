@@ -629,6 +629,54 @@
         
     ],
 
+
+
+
+    "heroBanner" : [
+        {   
+            "type" : "type-4",
+            "title" : "HP Smart Tank",
+            "description" : "From America's most trusted printer brand",
+            "link" : "/",
+            "img" : "https://www.hp.com/content/dam/sites/worldwide/homepage/images/banners/VISIDbts-mobile_2x.jpg"
+        },
+        {   
+            "type" : "type-1",
+            "title" : "Power to create. Performance to play.",
+            "description" : "HP OmniBook Ultra Next Gen AI PC",
+            "link" : "/",
+            "img" : "https://cdn-reichelt.de/bilder/elements/hersteller/hewlett_packard_en.png"
+        },
+        {   
+            "type" : "type-2",
+            "title" : "HP All-In Plan",
+            "startingPrice" : "Starting at $6.99 a month",
+            "description" : "Service includes printer, ink delivery, and 24/7 expedited support.",
+            "link" : "/",
+            "img" : "https://cdn.shopify.com/s/files/1/0605/0136/0804/files/HP_d35542a3-b034-424c-8291-6e60abb5ccb5.png?v=1667268304"
+        },
+        {   
+            "type" : "type-3",
+            "title" : "Introducing the new HP OmniBook X AI PC",
+            "description" : "Unleash your potential with the new AI era of PCs.",
+            "link" : "/",
+            "img" : "https://www.hp.com/content/dam/exclusive/home-assets/Group-12046@2x.jpg"
+        },
+        {   
+            "type" : "type-5",
+            "title" : "Welcome to the new AI era of PCs",
+            "description" : "Introducing the new EliteBook Ultra G1q AI PC for business.",
+            "link" : "/",
+            "img" : "https://www.hp.com/content/dam/exclusive/home-assets/Group-6716@2x.jpg"
+        }
+    ],
+
+
+
+
+    "stickyText" : "Last Chance - Back to School Sale. Save up to 69% on our latest tech, plus free shipping storewide.",
+
+
     "copyright" : "©2024 HP Development Company, L.P.  The information contained herein is subject to change without notice.",
 
     

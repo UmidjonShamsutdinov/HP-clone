@@ -1,0 +1,24 @@
+.hero{
+    width: 100%;
+}
+
+.hero__banner{
+    height: 100vh;
+    position: relative;
+    display: flex;
+}
+
+
+.type-1{
+    flex-direction: column-reverse;
+    .hero__title{
+        background-color: aqua;
+    }
+    img{
+        position: absolute ;
+        top: 0 ;
+        left: 0;
+        z-index: -1;
+        
+    }
+}
