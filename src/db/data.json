@@ -668,7 +668,7 @@
             "description" : "Unleash your potential with the new AI era of PCs.",
             "link" : "/",
             "linkText" : "Learn",
-            "linkText2" : "shop",
+            "linkText2" : "Shop",
             "lineColor" : "",
             "img" : "https://www.hp.com/content/dam/exclusive/home-assets/Group-12046@2x.jpg"
         },
@@ -678,7 +678,7 @@
             "description" : "Introducing the new EliteBook Ultra G1q AI PC for business.",
             "link" : "/",
             "linkText" : "Learn",
-            "linkText2" : "shop",
+            "linkText2" : "Shop",
             "lineColor" : "",
             "img" : "https://www.hp.com/content/dam/exclusive/home-assets/Group-6716@2x.jpg"
         }
@@ -690,8 +690,7 @@
     "stickyText" : "Last Chance - Back to School Sale. Save up to 69% on our latest tech, plus free shipping storewide.",
 
 
-    "copyright" : "©2024 HP Development Company, L.P.  The information contained herein is subject to change without notice.",
+    "copyright" : "©2024 HP Development Company, L.P.  The information contained herein is subject to change without notice."
 
     
-    "sticyInfo" : "Back to School Buyers Guide. Unlock your A+ potential with powerful tech from HP."
 }
