@@ -4,7 +4,7 @@
 
 .hero__banner{
     height: 100vh;
-    // position: relative;
+    position: relative;
     display: flex;
     padding-bottom: 30px;
     img{
@@ -109,6 +109,7 @@
         gap: 10px 0;
         max-width: 456px;
         background-color: #fff;
+        height: 100vh;
         h2{
             font-size: 70px;
             text-align: start;
@@ -142,49 +143,86 @@
 
 
 .type-4{
-    width: 100%; 
-    max-width: 1280px;
-    margin: 0  auto;
-    img{
-        left: 30%;        
-    }
-    .hero__title{  
+    width: 100%;
+    text-align: start;
+    display: flex;
+    justify-content: end;
+    .hero__title{        
         display: flex;
         flex-direction: column;
-        gap: 10px 0;
-        max-width: 456px;
-        background-color: #fff;
+        gap: 20px 0;
+        align-items: center;
+        padding: 0 10px;
+        width: 40%;
+        height: 100vh;
+        background-color: #33ABDE;
         h2{
             font-size: 70px;
-            text-align: start;
             font-family: forma-djr-micro, Arial, sans-serif;
+            max-width: 368px;
         }
         .hero-desc{
             display: flex;
             flex-direction: column;
-            gap: 30px 0;
+            gap: 40px 0;
             p{
-                font-size: 34px;
+                font-size: 40px;
                 font-family: forma-djr-micro, Arial, sans-serif;
-                text-align: start;
+                max-width: 378px;
             }
+            a{
+                text-decoration: none;
+                padding: 8px 16px;
+                background-color: #000;
+                align-self: self-start;
+                color: #fff;
+            }
+        }
+    }
+}
+
+
+
+
+.type-5{
+    flex-direction: column-reverse;
+    
+    .hero__title{
+        background-color: transparent;
+        .hero__title-text{
+            text-align: start;
+            font-size: 60px;
+            color: #000; 
+            font-family: forma-djr-micro, Arial, sans-serif;          
+        }
+        .hero__description{
+            font-size: 32px;
+            font-family: forma-djr-micro, Arial, sans-serif;
+            text-align: start;
+            color: #000;
+            padding-top: 20px;
+        }
+        .hero-desc{
+            display: flex;
+            flex-direction: column;
+            align-items: self-start;
+            gap: 40px 0;
             .link-texts{
                 display: flex;
                 gap: 0 20px;
-                a{
-                    font-size: 16px;
-                    padding: 8px 16px;
-                    background-color: #000;
-                    text-decoration: none;
-                    color: #fff;
-                    font-family: forma-djr-micro, Arial, sans-serif;
-                }
+            }
+            a{
+                text-decoration: none;
+                font-size: 16px;
+                font-family: forma-djr-micro, Arial, sans-serif;
+                color: #fff;
+                background-color: #000;
+                padding: 8px 12px;
             }
         }
-    }  
-
+    }
+    
 }
-
 
 
 
