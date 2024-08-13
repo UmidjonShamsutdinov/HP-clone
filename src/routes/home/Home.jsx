@@ -27,8 +27,8 @@ const Home = () => {
           <Hero/>
           <HeyThere/>
           <BeFriends/>
-          <Footer/>
         </div>
+        <Footer/>
     </div>
   )
 }

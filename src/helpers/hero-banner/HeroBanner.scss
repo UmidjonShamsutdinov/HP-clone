@@ -6,19 +6,97 @@
     height: 100vh;
     position: relative;
     display: flex;
+    // padding-top: 50px;
+    padding-bottom: 30px;
+    img{
+        position: absolute;
+        top: 0 ;
+        left: 0;
+        z-index: -1;        
+    }
 }
 
 
 .type-1{
     flex-direction: column-reverse;
     .hero__title{
-        background-color: aqua;
+        background-color: transparent;
+        .hero__title-text{
+            text-align: start;
+            font-size: 60px;
+            color: #fff; 
+            font-family: forma-djr-micro, Arial, sans-serif;          
+        }
+        .hero__description{
+            font-size: 32px;
+            font-family: forma-djr-micro, Arial, sans-serif;
+            text-align: start;
+            color: #fff;
+        }
+        .hero-desc{
+            display: flex;
+            align-items: center;
+            gap: 0 40px;
+            a{
+                text-decoration: none;
+                font-size: 16px;
+                font-family: forma-djr-micro, Arial, sans-serif;
+                color: #000;
+                background-color: #fff;
+                padding: 8px 12px;
+            }
+        }
     }
-    img{
-        position: absolute ;
-        top: 0 ;
-        left: 0;
-        z-index: -1;
-        
+    
+}
+
+
+
+.type-2{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    .hero__title{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px 0;
+    }
+    h2{
+        font-size: 60px;
+        text-align: start;
+        color: #fff;
+    }
+    .hero-desc{
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        gap: 30px 0;
+        .start-price{
+            font-size: 34px;
+            font-family: forma-djr-micro, Arial, sans-serif;
+            color: #fff;
+        }
+        p{
+            font-size: 20px;
+            font-family: forma-djr-micro, Arial, sans-serif;
+            max-width: calc(416px - 30px);
+            color: #fff;
+        }
+        a{
+            text-decoration: none;
+            font-size: 16px;
+            font-family: forma-djr-micro, Arial, sans-serif;
+            padding: 10px 14px;
+            background-color: #000;
+            color: #fff;
+            align-self: self-start;
+        }
     }
 }
+
+
+.none{
+    display: none;
+}
+

@@ -638,14 +638,19 @@
             "title" : "HP Smart Tank",
             "description" : "From America's most trusted printer brand",
             "link" : "/",
-            "img" : "https://www.hp.com/content/dam/sites/worldwide/homepage/images/banners/VISIDbts-mobile_2x.jpg"
+            "linkText" : "Learn",
+            "lineColor" : "none",
+            "img" : "https://cdn-reichelt.de/bilder/elements/hersteller/hewlett_packard_en.png"
+            
         },
         {   
             "type" : "type-1",
             "title" : "Power to create. Performance to play.",
             "description" : "HP OmniBook Ultra Next Gen AI PC",
             "link" : "/",
-            "img" : "https://cdn-reichelt.de/bilder/elements/hersteller/hewlett_packard_en.png"
+            "linkText" : "Learn",
+            "lineColor" : "hr-line2",
+            "img" : "https://www.bannerflow.com/hubfs/Imported_Blog_Media/guide_display-ad-ctr-header-2-3.jpg"
         },
         {   
             "type" : "type-2",
@@ -653,13 +658,18 @@
             "startingPrice" : "Starting at $6.99 a month",
             "description" : "Service includes printer, ink delivery, and 24/7 expedited support.",
             "link" : "/",
-            "img" : "https://cdn.shopify.com/s/files/1/0605/0136/0804/files/HP_d35542a3-b034-424c-8291-6e60abb5ccb5.png?v=1667268304"
+            "linkText" : "Explore plan",
+            "lineColor" : "none",
+            "img" : "https://png.pngtree.com/background/20210711/original/pngtree-blue-minimalistic-tech-computer-banner-poster-background-picture-image_1081883.jpg"
         },
         {   
             "type" : "type-3",
             "title" : "Introducing the new HP OmniBook X AI PC",
             "description" : "Unleash your potential with the new AI era of PCs.",
             "link" : "/",
+            "linkText" : "Learn",
+            "linkText2" : "shop",
+            "lineColor" : "",
             "img" : "https://www.hp.com/content/dam/exclusive/home-assets/Group-12046@2x.jpg"
         },
         {   
@@ -667,6 +677,9 @@
             "title" : "Welcome to the new AI era of PCs",
             "description" : "Introducing the new EliteBook Ultra G1q AI PC for business.",
             "link" : "/",
+            "linkText" : "Learn",
+            "linkText2" : "shop",
+            "lineColor" : "",
             "img" : "https://www.hp.com/content/dam/exclusive/home-assets/Group-6716@2x.jpg"
         }
     ],

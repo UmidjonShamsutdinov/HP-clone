@@ -39,9 +39,9 @@ const Hero = () => {
             >
               {
                 heroBanner.map((product, index)=>
-                  <SwiperSlide key={index}>
+                  <SwiperSlide key={index} className='hero-slide-swiper'>
                     {
-                      <HeroBanner title={product.title} description={product.description} img={product.img} startingPrice={product.startingPrice} link={product.link} type={product.type}/>
+                      product.linkText2 ?  <HeroBanner title={product.title} description={product.description} img={product.img} startingPrice={product.startingPrice} link={product.link} type={product.type} linkText={product.linkText} linkText2={product.linkText2} lineColor={product.lineColor}/> : <HeroBanner title={product.title} description={product.description} img={product.img} startingPrice={product.startingPrice} link={product.link} type={product.type} linkText={product.linkText} lineColor={product.lineColor}/>
                     }
                   </SwiperSlide>
                 
