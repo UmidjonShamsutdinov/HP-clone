@@ -44,12 +44,26 @@ footer{
     display: none;
 }
 
+@keyframes divHeight{
+    from{
+        padding: 0 10px 0;
+        gap: 0;
+    }
+    to{
+        gap: 10px;
+        background-color: #1A1A1A;
+        padding: 13px 10px 17px;
+    }
+}
+
 
 .footer__related-links-open{
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     background-color: #1A1A1A;
+    animation-name: divHeight;
+    animation-duration: 0.5s;
     padding: 13px 10px 17px;
     a{
         text-decoration: none;
@@ -57,6 +71,7 @@ footer{
         font-size: 14px;
         display: flex;
         align-items: center;
+        font-family: forma-djr-micro, Arial, sans-serif;
         span{
             display: block;
             width: 1px;
