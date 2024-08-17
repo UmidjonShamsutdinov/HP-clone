@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./Footer.scss"
 import { FaFacebook, FaInstagram, FaLinkedin, FaTiktok, FaTwitter, FaYoutube } from 'react-icons/fa'
 import { Container } from '../../utils/Utils'
@@ -12,18 +12,29 @@ import DynamicIcon from '../../helpers/dynamic-icon/DynamicIcon'
 const Footer = () => {
     const mainLinks = footerLinks.filter(links=>(links["main-links"]))[0]["main-links"]
     const helperLinks = footerLinks.filter(links=>(links["helper-links"]))[0]["helper-links"]
+    const relatedLinks = footerLinks.filter(links=>(links["related-links"]))[0]["related-links"]
+    const [relatedLinksAction, setRelatedLinksAction] = useState(false)
+
+
+
+
   return (
     <footer className='footer'>
         <div className="hr-line hr-line2 hr-line3"></div>
         <Container>
             <div className="footer__main">
                 <div className="footer__related-links">
-                    <h3>Related links <BiChevronDown/></h3>
-                    <div className="footer__related-links-hidden">
-                        {/* related links are here */}
+                    <h3 onClick={()=>setRelatedLinksAction(!relatedLinksAction)}>Related links <BiChevronDown/></h3>
+                    {relatedLinksAction  && <div className='hr-line hr-line2'></div>}
+                    <div className={`footer__related-links-${relatedLinksAction ? "open" : "hidden"}`}>
+                        {
+                            relatedLinks.map((link, index)=>
+                                <Link key={index} to={link.link}>{link.title}{relatedLinks.length-1 !== index && <span></span>}</Link>
+                            )
+                        }                       
                     </div>
                 </div>
-                <div className="hr-line hr-line2"></div>
+                <div className="hr-line hr-line2 nomargin"></div>
                 <div className="footer__country-selector">
                     <p>Country/Region : United States</p>
                 </div>

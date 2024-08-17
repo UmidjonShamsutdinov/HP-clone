@@ -2,6 +2,8 @@ import React from 'react'
 import "./SinglePage.scss"
 import {allProducts} from "../../db/data.json"
 import { Container } from '../../utils/Utils';
+import Nav from "../../components/nav/Nav"
+import PreNav from "../../components/pre-nav/PreNav"
 
 
 
@@ -26,6 +28,8 @@ const SinglePage = () => {
     
   return (
     <div className='single-page__main'>
+        <PreNav/>
+        <Nav/>
         <Container>
             <div className="single-page" >
                 <div className="swipe-image">

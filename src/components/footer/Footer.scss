@@ -17,6 +17,11 @@ footer{
 }
 
 
+.nomargin{
+    margin-top: 0;
+}
+
+
 .footer__related-links{
     display: flex;
     flex-direction: column;
@@ -30,6 +35,34 @@ footer{
         color: #fff;
         :last-child{
             font-size: 20px;
+        }
+    }
+}
+
+
+.footer__related-links-hidden{
+    display: none;
+}
+
+
+.footer__related-links-open{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    background-color: #1A1A1A;
+    padding: 13px 10px 17px;
+    a{
+        text-decoration: none;
+        color: #fff;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        span{
+            display: block;
+            width: 1px;
+            height: 100%;
+            background-color: #fff;
+            margin-left: 10px;
         }
     }
 }
