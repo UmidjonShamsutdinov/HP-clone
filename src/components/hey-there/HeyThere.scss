@@ -147,3 +147,12 @@
         }
     }
 }
+
+
+@media screen and (max-width: 1000px) {
+    .hey-there__products{
+        .hey-there__cards{
+            grid-template-columns: 1fr;
+        }
+    }
+}
