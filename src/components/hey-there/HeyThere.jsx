@@ -45,7 +45,7 @@ const HeyThere = () => {
                     {
                         openProducts != false && products?.allProducts.filter((product)=>product.category === openProducts).map((product, index)=>
                             <div className="hidden__product" key={index}>
-                                <img src={product?.img?.[index]} alt="product image"/> {/* we should give one index to photo's src */}
+                                <img src={product?.img?.[0]} alt="product image"/> {/* we should give one index to photo's src */}
                                 <p>{product.title}</p>
                                 <div className="hidden__product-buttons">
                                     <Link to={`/single-page/${product.id}`}>Learn</Link>
