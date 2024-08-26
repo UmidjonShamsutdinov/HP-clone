@@ -18,6 +18,8 @@ const HeyThere = () => {
             setOpenProducts(false)
         }
     }
+
+
   return (
     <div className='hey-there__main'>
         <Container>
@@ -39,7 +41,7 @@ const HeyThere = () => {
                                 <div className="card-text">
                                     <p>{product.text}</p>
                                 </div>
-                            </div>
+                            </div>                            
                         )
                     }
                     {
