@@ -156,3 +156,13 @@
         }
     }
 }
+
+
+
+@media screen and (max-width: 720px) {
+    .fresh-look{
+        padding-bottom: 120px;
+        background-image: url("../../assets/printables-mobile2x.webp");
+        background-position: top;
+    }
+}
