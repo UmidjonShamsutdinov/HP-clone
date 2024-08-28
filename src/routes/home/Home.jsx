@@ -30,6 +30,7 @@ const Home = () => {
         </div>
         <Footer/> */}
         <HeyThere/>
+        <Footer/>
     </div>
   )
 }
