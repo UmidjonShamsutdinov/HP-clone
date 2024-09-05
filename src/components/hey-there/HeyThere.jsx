@@ -4,6 +4,7 @@ import { Container } from '../../utils/Utils'
 import products from "../../db/data.json"
 import { Link } from 'react-router-dom'
 import { FaChevronRight } from "react-icons/fa";
+import freshLookImg from "../../assets/fresh-look.png"
 
 const HeyThere = () => {
     const [openProducts, setOpenProducts] = useState(false)
@@ -58,8 +59,11 @@ const HeyThere = () => {
                     }
                 </div>
                 <div className="fresh-look">
-                    <h3>Fresh look. Fresh printable ideas</h3>
-                    <p>Discover, create, and learn with our collection of free HP Printables.<Link to={"/"}><span><FaChevronRight/></span>Explore</Link></p>
+                    <div className="fresh-look__title">
+                        <h3>Fresh look. Fresh printable ideas</h3>
+                        <p>Discover, create, and learn with our collection of free HP Printables.<Link to={"/"}><span><FaChevronRight/></span>Explore</Link></p>
+                    </div>
+                    <img src={freshLookImg} alt="" />
                 </div>
             </div>
         </Container>
