@@ -13,9 +13,9 @@ import {stickyText} from "../../db/data.json"
 const Home = () => {
   return (
     <div>
-        <PreNav/>
+        {/* <PreNav/> */}
         {/* <Nav/> */}
-        <div className="sticky__info">
+        {/* <div className="sticky__info">
           <div className="sticky-div">
             <Container>
               <div className="stick__info">
@@ -28,7 +28,8 @@ const Home = () => {
           <HeyThere/>
           <BeFriends/>
         </div>
-        <Footer/>
+        <Footer/> */}
+        <Nav/>
     </div>
   )
 }

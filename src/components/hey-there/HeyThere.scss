@@ -119,7 +119,8 @@
     &__title{
         display: flex;
         flex-direction: column;
-        width: 100%;
+        flex: 1;
+        // width: 100%;
         background-color: #D3FC65;
         padding: 36px 60px;
         h3{
@@ -130,7 +131,7 @@
             display: flex;
             align-items: center;
             gap: 0 20px;
-            font-size: 18px;
+            font-size: 20px;
             font-family: forma-djr-micro, Arial, sans-serif;
             a{
                 display: flex;
@@ -151,10 +152,31 @@
             }
         }
     }
-    img{
-        width: 32%;
-    }
+    
 }
+
+
+// @media screen and (max-width: 1280px) {
+//     .fresh-look{
+//         &__title{
+//             gap: 16px;
+//             h3{
+//                 font-size: 36px;
+//             }
+//             p{
+//                 flex-direction: column;
+//                 align-items: start;
+//                 gap: 16px;
+//                 font-size: 20px;
+//             }
+//         }
+//         img{
+//             width: 100%;
+//         }
+//     }
+// }
+
+
 
 
 @media screen and (max-width: 1000px) {
