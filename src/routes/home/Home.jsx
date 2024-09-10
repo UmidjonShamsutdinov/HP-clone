@@ -29,6 +29,7 @@ const Home = () => {
           <BeFriends/>
         </div>
         <Footer/> */}
+        <PreNav/>
         <Nav/>
     </div>
   )
