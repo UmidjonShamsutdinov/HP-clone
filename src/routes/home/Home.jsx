@@ -31,6 +31,7 @@ const Home = () => {
         <Footer/> */}
         <PreNav/>
         <Nav/>
+        <Hero/>
     </div>
   )
 }
