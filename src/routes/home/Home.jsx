@@ -32,6 +32,7 @@ const Home = () => {
         <PreNav/>
         <Nav/>
         <Hero/>
+        <BeFriends/>
     </div>
   )
 }
