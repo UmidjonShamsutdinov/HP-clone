@@ -182,7 +182,33 @@
 @media screen and (max-width: 1000px) {
     .hey-there__products{
         .hey-there__cards{
-            grid-template-columns: 1fr;
+            grid-template-columns: 0.5fr;
+            justify-content: center;
+        }
+    }
+}
+
+
+
+
+@media screen and (max-width: 880px) {
+    .fresh-look{
+        flex-direction: column;
+        &__title{
+            gap: 10px;
+            padding: 25px 45px;
+            h3{
+                font-size: 30px;
+            }
+            p{
+                flex-direction: column;
+                align-items: start;
+                gap: 10px;
+                font-size: 16px;
+                span{
+                    font-size: 14px;
+                }
+            }
         }
     }
 }
