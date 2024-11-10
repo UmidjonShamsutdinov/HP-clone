@@ -4,8 +4,9 @@ import { Container } from '../../utils/Utils'
 import hpLogo from "../../assets/HP.png"
 import { Link } from 'react-router-dom'
 import navData from "../../db/data.json"
-import { IoIosSearch } from "react-icons/io";
+import { IoIosSearch, IoMdHeartEmpty } from "react-icons/io";
 import { IoCartOutline } from "react-icons/io5";
+import { RxHamburgerMenu } from 'react-icons/rx'
 
 
 const Nav = () => {
@@ -33,8 +34,10 @@ const Nav = () => {
                         <input type="text" placeholder='Search HP.com'/>
                         <button type='button'><IoIosSearch/></button>
                     </div>
+                    <IoIosSearch className='mobile-search'/>
                     <Link to={"/"} className='cart'><IoCartOutline/></Link>
                     <Link to={"/"} className='signIn'>Sign In</Link>
+                    <RxHamburgerMenu className='menu__hamburger'/>
                 </div>
             </div>
         </Container>

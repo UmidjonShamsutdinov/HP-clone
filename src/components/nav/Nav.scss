@@ -31,6 +31,9 @@
 }
 
 
+
+
+
 .nav__commits{
     display: flex;
     align-items: center;
@@ -85,5 +88,47 @@
         overflow: hidden;
         max-width: 250px;
         text-overflow: ellipsis;
+    }
+
+
+
+}
+
+.menu__hamburger{
+    font-size: 24px;
+    display: none;
+}
+
+
+.mobile-search{
+    font-size: 24px;
+    display: none;
+}
+
+
+
+
+@media screen and (max-width: 1100px) {
+    .navMenu{
+        display: none;
+    }
+
+    .menu__hamburger{
+        display: block;
+    }
+
+    .nav__commits{
+        .nav__search{
+            display: none;
+        }
+    }
+
+    .mobile-search{
+        border: none;
+        color: #5a5a5a;
+        background-color: transparent;
+        font-size: 24px;
+        display: flex;
+        cursor: pointer;
     }
 }
