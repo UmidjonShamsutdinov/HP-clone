@@ -31,7 +31,17 @@
 }
 
 
-
+.signIn-person{
+    background-color: transparent;
+    text-decoration: none;
+    margin: 0;
+    color: #ccc;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 250px;
+    text-overflow: ellipsis;
+    display: none;
+}
 
 
 .nav__commits{
@@ -99,6 +109,10 @@
     display: none;
 }
 
+.menu__remove{
+    font-size: 24px;
+}
+
 
 .mobile-search{
     font-size: 24px;
@@ -130,5 +144,19 @@
         font-size: 24px;
         display: flex;
         cursor: pointer;
+    }
+}
+
+
+
+@media screen and (max-width: 718px) {
+    .signIn-person{
+        display: block;
+    }
+
+    .nav__commits{
+        .signIn{
+            display: none;
+        }
     }
 }
