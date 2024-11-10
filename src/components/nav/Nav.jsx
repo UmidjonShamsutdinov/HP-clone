@@ -50,7 +50,8 @@ const Nav = () => {
                         <input type="text" placeholder='Search HP.com'/>
                         <button type='button'><IoIosSearch/></button>
                     </div>
-                    <IoIosSearch className='mobile-search'/>
+                    
+                    <Link to={"/"} className='mobile-search'><IoIosSearch/></Link>
                     <Link to={"/"} className='cart'><IoCartOutline/></Link>
                     <Link to={"/"} className='signIn'>Sign In</Link>
                     <Link to={"/"} className='signIn-person'><IoPerson/></Link>
