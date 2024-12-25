@@ -28,7 +28,7 @@ const Home = () => {
           <HeyThere/>
           <BeFriends/>
         </div>
-        <Footer/>
+        {/* <Footer/> */}
     </div>
   )
 }
